@@ -1,13 +1,25 @@
-# Redis HTML Web App
+# redis-html
 
-NET Core 2.0 Redis HTML Web App.
+redis-html is a Redis Admin Viewer developed as server-generated HTML Website
 
-The `/app` folder contains the Redis Web App project.
+[![](https://raw.githubusercontent.com/NetCoreApps/TemplatePages/master/src/wwwroot/assets/img/screenshots/redis-html.png)](http://redis-html.web-app.io)
 
-The `/web` folder contains the [Web Apps binaries](https://github.com/NetCoreWebApps/Web).
+## Install
 
-See [templates.servicestack.net/docs/web-apps](http://templates.servicestack.net/docs/web-apps) to learn about ServiceStack Web Apps.
+Run as a Desktop App (Windows only):
 
-[![](http://templates.servicestack.net/assets/img/screenshots/redis.png)](http://redis-html.web-app.io)
+    $ dotnet tool install -g app
 
-> Live Demo: http://redis-html.web-app.io
+    $ app install redis-html
+    $ cd redis-html && app
+
+Run as a .NET Core Web App (Windows, macOS, Linux):
+
+    $ dotnet tool install -g web
+
+    $ web install redis-html
+    $ cd redis-html && web
+
+## Learn
+
+See [templates.servicestack.net/docs/web-apps](http://templates.servicestack.net/docs/web-apps) to learn about ServiceStack .NET Core 2.1 Web Apps.
